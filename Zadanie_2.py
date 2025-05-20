@@ -1,7 +1,8 @@
 def get_grades():
-    return [5, 4, 3, 2, 1]
+    return [5, 4, "3", 2, 1]
 
 def calculate_average(grades):
+    grades = [int(g) for g in grades]
     return sum(grades) / len(grades)
 
 def to_word_grade(avg):

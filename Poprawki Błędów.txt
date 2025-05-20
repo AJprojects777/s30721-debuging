@@ -1,5 +1,5 @@
 Zadanie_1 Poprawiono return z 0 na 1. Gdy było 0 to zerowało całą liczbę, ponieważ mnożenie przez 0 daje 0.
 
-Zadanie_2 Poprawiono ocene "3" ze stringa na int 3, ponieważ na stringach nie da się wykonywać operacji matematycznych
+Zadanie_2 Zrobiono rzutowanie ze string oceny 3 na int
 
 Zadanie_3 Poprawiono wygląd aplikacji oraz zmieniono funkcje take_damage z float na int.
